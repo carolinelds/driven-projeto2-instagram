@@ -81,9 +81,8 @@ ion-icon {
 }
 
 .container-content {
-    background-color: red;
     width: 614px;
-    margin-left: calc( (100vw - 935px) / 2);
+    margin-left: calc( (100% - 935px) / 2);
     
 }
 
@@ -93,6 +92,7 @@ ion-icon {
     height: 749px;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
+    margin-bottom: 60px;
 }
 
 .post-header {
@@ -145,6 +145,31 @@ ion-icon {
 .post-icons ion-icon:last-child {
     position: absolute;
     right: 16px;
+}
+
+.post-likes {
+    display: flex;
+    height: calc(749px - 2px - 61px - 612px - 32px);
+    align-items: center;
+    margin-left: 17px;
+}
+
+.post-likes img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.post-likes p {
+    color: #000000;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.post-likes p span {
+    font-weight: 500;
 }
 
 .container-stories {
