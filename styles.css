@@ -4,9 +4,7 @@
 
 /*Layout com sidebar*/
 body {
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
-    
+    font-family: 'Roboto', sans-serif;  
 }
 
 .container-header {
@@ -83,7 +81,6 @@ ion-icon {
 .container-content {
     width: 614px;
     margin-left: calc( (100% - 935px) / 2);
-    
 }
 
 .container-post {
@@ -366,7 +363,7 @@ ion-icon {
         display: none;
     }
 
-    .container-all {
+    .container-body {
         justify-content: center;
     }
 
@@ -394,6 +391,23 @@ ion-icon {
         width: 90vw;
         display: flex;
         justify-content: space-between;
+    }
+
+    .container-body {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container-content {
+        width: 100%;
+    }
+
+    .container-post {
+        height: auto;
+    }
+    .container-post > img {
+        width: 100%;
+        height: auto;
     }
 
     .container-footer {
