@@ -19,8 +19,6 @@ body {
     left: 0px;
     border-bottom: 1px solid #DBDBDB;
     z-index: 2;
-
-   
 }
 
 .header {
@@ -30,7 +28,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .bar-vertical {
@@ -45,8 +42,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
-
 
 ion-icon {
    font-size: 24px;
@@ -80,11 +75,8 @@ ion-icon {
 
 .container-body {
     background-color:  #E5E5E5;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     margin-top: 54px;
-    margin-bottom: 54px;
-
     display: flex;
 }
 
@@ -96,9 +88,47 @@ ion-icon {
     
 }
 
+.container-post {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 749px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.post-top {
+    height: 61px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.post-top img {
+    margin-left: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.post-top p {
+    color: #262626;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.post-top ion-icon {
+    position: absolute;
+    right: 17px;
+    font-size: 16px;
+}
+
 .container-stories {
     background-color:#FFFFFF;
     margin-top: 34px;
+    margin-bottom: 24px;
     height: 118px;
     width: 100%;
     border: 1px solid #DBDBDB;
@@ -151,10 +181,6 @@ ion-icon {
     color: #262626;
 }
 
-.container-posts {
-    background-color: saddlebrown;
-    margin-top: 24px;
-}
 
 .container-sidebar {
     width: 293px;
