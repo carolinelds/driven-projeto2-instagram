@@ -72,15 +72,18 @@ ion-icon {
 }
 
 .container-body {
-    background-color:  #E5E5E5;
+    background-color:  #FAFAFA;
     width: 100%;
     margin-top: 54px;
     display: flex;
+    position: relative;
 }
 
 .container-content {
+    background-color: #FAFAFA;;
     width: 614px;
     margin-left: calc( (100% - 935px) / 2);
+    position: relative;
 }
 
 .container-post {
@@ -169,7 +172,7 @@ ion-icon {
     font-weight: 500;
 }
 
-.container-stories {
+.stories-white-background {
     background-color:#FFFFFF;
     margin-top: 34px;
     margin-bottom: 24px;
@@ -177,21 +180,42 @@ ion-icon {
     width: 100%;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
-    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
 }
 
-.stories-border {
-    background-color: #FFFFFF;
+.overflow-fix-line {
+    background-color: #DBDBDB;
+    height: 90px;
+    width: 1px;
+    position: absolute;
+    z-index: 3;
+    right: 30px;
+}
+
+.overflow-fix-rectangle {
+    height: 90px;
+    width: 30px;
+    background-color: #FAFAFA;
+    position: absolute;
+    z-index: 4;
+    right: 0px;
+}
+
+.stories-gallery {
     margin-left: 18px;
-    margin-top: 18px;
+    margin-top: 52px;
     width: calc(66px + 494px + 66px);
     height: calc(66px + 1px + 19px);
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
 }
 
-.stories-border img {
+.stories-gallery img {
     width: 66px;
     height: 66px;
     border-radius: 50%;
@@ -227,10 +251,12 @@ ion-icon {
 
 
 .container-sidebar {
+    background-color: #FAFAFA;
     width: 293px;
     height: 100vh;
     position: fixed;
     left: calc( calc( calc(100vw - 935px) / 2) + calc(614px + 29px));
+    z-index: 4;
 }
 
 .container-sidebar-top {
@@ -400,6 +426,7 @@ ion-icon {
     
     .container-content {
         width: 100%;
+        position: relative;
     }
 
     .container-post {
