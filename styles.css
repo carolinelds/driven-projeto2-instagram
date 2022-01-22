@@ -83,7 +83,6 @@ ion-icon {
 .container-content {
     background-color: red;
     width: 614px;
-    height: 100vh;
     margin-left: calc( (100vw - 935px) / 2);
     
 }
@@ -96,7 +95,7 @@ ion-icon {
     border-radius: 3px;
 }
 
-.post-top {
+.post-header {
     height: 61px;
     width: 100%;
     display: flex;
@@ -104,7 +103,7 @@ ion-icon {
     position: relative;
 }
 
-.post-top img {
+.post-header img {
     margin-left: 17px;
     height: 32px;
     width: 32px;
@@ -112,14 +111,14 @@ ion-icon {
     margin-right: 15px;
 }
 
-.post-top p {
+.post-header p {
     color: #262626;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
 }
 
-.post-top ion-icon {
+.post-header ion-icon {
     position: absolute;
     right: 17px;
     font-size: 16px;
@@ -295,7 +294,7 @@ ion-icon {
 }
 
 .sidebar-info p {
-    color: #DBDBDB;
+    color: #C7C7C7;
     font-size: 11px;
     line-height: 13px;
 }
