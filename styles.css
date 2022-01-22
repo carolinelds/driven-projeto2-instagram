@@ -405,8 +405,17 @@ ion-icon {
 
     .icons,
     .search,
-    .bar-vertical {
+    .bar-vertical    {
         display: none;
+    }
+
+    .stories-white-background {
+        display: none;
+    }
+
+    .stories-gallery {
+        margin-top: 17px;
+        margin-bottom: 18px;
     }
 
     .mobile {
@@ -429,6 +438,10 @@ ion-icon {
         position: relative;
     }
 
+    .container-content > .container-post {
+        margin-top: 121px;
+    }
+   
     .container-post {
         height: auto;
     }
