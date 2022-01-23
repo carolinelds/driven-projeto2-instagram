@@ -428,6 +428,10 @@ ion-icon {
         justify-content: space-between;
     }
 
+    .container-header {
+        z-index: 4;
+    }
+    
     .container-body {
         display: flex;
         justify-content: center;
@@ -438,13 +442,14 @@ ion-icon {
         position: relative;
     }
 
-    .container-content > .container-post {
+    .container-post.first {
         margin-top: 121px;
     }
    
     .container-post {
         height: auto;
     }
+    
     .container-post > img {
         width: 100%;
         height: auto;
