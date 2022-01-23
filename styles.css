@@ -16,7 +16,7 @@ body {
     top: 0px;
     left: 0px;
     border-bottom: 1px solid #DBDBDB;
-    z-index: 2;
+    z-index: 3;
 }
 
 .header {
@@ -394,6 +394,10 @@ ion-icon {
 /*Layout desktop sem sidebar*/
 @media (max-width: 935px) {
     
+    .container-header {
+        z-index: 3;
+    }
+
     .header {
         width: 90vw;
     }
