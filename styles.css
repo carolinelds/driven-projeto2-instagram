@@ -391,7 +391,9 @@ ion-icon {
 
     .container-body {
         justify-content: center;
+        overflow-x: hidden;
     }
+
 
     .container-content {
         margin-left: auto;
@@ -431,15 +433,17 @@ ion-icon {
     .container-header {
         z-index: 4;
     }
-    
+   
     .container-body {
         display: flex;
         justify-content: center;
+        overflow-x: hidden;
     }
     
     .container-content {
         width: 100%;
         position: relative;
+        overflow-x: hidden;
     }
 
     .container-post.first {
