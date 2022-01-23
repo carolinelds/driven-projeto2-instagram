@@ -50,19 +50,26 @@ ion-icon {
     height: auto;
 }
 
-.search {
+.search-input {
+    text-align: center;
     background-color: #FAFAFA;
     width: 215px;
     height: 28px;
     color: #979797;
     font-size: 12px;
     line-height: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
 }
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder {
+    text-align: center;
+}
+
 
 .icons {
     width: 168px;
