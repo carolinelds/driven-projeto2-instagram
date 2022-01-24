@@ -119,7 +119,8 @@ ion-icon {
 }
 
 .post-header p,
-.post-owner {
+.post-owner,
+.comment-author {
     color: #262626;
     font-weight: 500;
     font-size: 14px;
@@ -190,7 +191,8 @@ video {
     margin-bottom: 13px;
 }
 
-.post-description p {
+.post-description p,
+.post-comments p {
     color: #262626;
     font-weight: 300;
     font-size: 14px;
@@ -200,6 +202,67 @@ video {
 .post-at-hashtag {
     color:dodgerblue;
 }
+
+.bar-horizontal {
+    width: 100%;
+    height: 1px;
+    background-color: #DBDBDB;
+}
+
+.post-comments {
+    width: calc(100% - 17px);
+    height: auto;
+    margin-left: 17px;
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+
+.container-comment {
+    position: relative;
+}
+
+.container-comment p {
+    width: 90%;
+}
+
+.post-comments ion-icon,
+label ion-icon {
+    font-size: 16px;
+}
+
+.heart,
+label {
+    position: absolute;
+    right: 17px;
+    top: 3px;
+}
+
+.heart {
+    color: red;
+    z-index: 0;
+}
+
+input {
+    display: none;
+}
+
+label {
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+
+#like:checked + label,
+#like2:checked + label,
+#like3:checked + label,
+#like4:checked + label,
+#like5:checked + label,
+#like6:checked + label,
+#like7:checked + label,
+#like8:checked + label   {        
+    color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
+}
+
 
 
 .stories-white-background {
@@ -365,10 +428,12 @@ video {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 16px;
+    position: relative;
 }
 
-.follower p {
-    width: calc(224px - 11px);
+.follower-info {
+    position: absolute;
+    left: 39px;    
 }
 
 .follower img {
@@ -397,12 +462,12 @@ video {
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
-    width: 36px;
+    width: auto;
 }
 
 .sidebar-info {
     margin-top: calc(33px - 17px);
-    height: 74px;
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
