@@ -62,6 +62,10 @@ ion-icon {
     border-radius: 3px;
 }
 
+.search-input:focus {
+    color: black;
+}
+
 ::-webkit-input-placeholder.search-input {
     text-align: center;
 }
@@ -373,7 +377,7 @@ label {
     z-index: 2;
 }
 
-.stories-gallery img {
+.stories-gallery > img {
     width: 66px;
     height: 66px;
     border-radius: 50%;
@@ -392,11 +396,11 @@ label {
 }
 
 .stories-pic-name img {
-    top: 5px;
     width: 56px;
     height: 56px;
     border-radius: 50%;
 }
+
 
 .stories-pic-name p {
     margin-top: 6px;
