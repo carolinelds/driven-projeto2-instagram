@@ -616,6 +616,7 @@ label {
         display: block;
         background-color: #FFFFFF;
         position: fixed;
+        z-index: 2;
         left: 0px;
         bottom: 0px;
         width: 100%;
