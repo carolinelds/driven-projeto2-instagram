@@ -95,6 +95,7 @@ ion-icon {
     width: 614px;
     margin-left: calc( (100% - 935px) / 2);
     position: relative;
+    overflow-x: hidden;
 }
 
 .container-post {
@@ -344,24 +345,6 @@ label {
 .stories-button ion-icon {
     color: white;
     font-size: 32px;
-}
-
-.overflow-fix-line {
-    background-color: #DBDBDB;
-    height: 90px;
-    width: 1px;
-    position: absolute;
-    z-index: 3;
-    right: 30px;
-}
-
-.overflow-fix-rectangle {
-    height: 90px;
-    width: 30px;
-    background-color: #FAFAFA;
-    position: absolute;
-    z-index: 4;
-    right: 0px;
 }
 
 .stories-gallery {
