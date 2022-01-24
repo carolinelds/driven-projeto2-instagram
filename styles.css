@@ -203,6 +203,10 @@ video {
     color:dodgerblue;
 }
 
+.post-at-hashtag:hover {
+    font-weight: 500;
+}
+
 .bar-horizontal {
     width: 100%;
     height: 1px;
