@@ -118,7 +118,8 @@ ion-icon {
     margin-right: 15px;
 }
 
-.post-header p {
+.post-header p,
+.post-owner {
     color: #262626;
     font-weight: 500;
     font-size: 14px;
@@ -182,6 +183,24 @@ video {
 .post-likes p span {
     font-weight: 500;
 }
+
+.post-description {
+    margin-left: 17px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+}
+
+.post-description p {
+    color: #262626;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.post-at-hashtag {
+    color:dodgerblue;
+}
+
 
 .stories-white-background {
     background-color:#FFFFFF;
