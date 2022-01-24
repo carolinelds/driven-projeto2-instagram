@@ -62,11 +62,11 @@ ion-icon {
     border-radius: 3px;
 }
 
-::-webkit-input-placeholder {
+::-webkit-input-placeholder.search-input {
     text-align: center;
 }
 
-:-moz-placeholder {
+:-moz-placeholder.search-input {
     text-align: center;
 }
 
@@ -242,7 +242,7 @@ label {
     z-index: 0;
 }
 
-input {
+.container-comment > input {
     display: none;
 }
 
@@ -263,6 +263,43 @@ label {
     background-color: rgba(0,0,0,0);
 }
 
+
+.comment-input-box {
+    margin-top: 8px;
+    position: relative;
+}
+
+.comment-input-box > input {
+    width: 80%;
+    height: 28px;
+    color: #979797;
+    font-size: 12px;
+    line-height: 14px;
+    border: none;
+    border-radius: 3px;
+}
+
+.comment-input-box > input:focus {
+    color: black;
+}
+
+.comment-input-box > button {
+    width: auto;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B2DFFC;
+    background-color: inherit;
+    border-color: #DBDBDB;
+    border-radius: 3px;
+    position: absolute;
+    right: 18px;
+    top: 4px;
+    transition: 0.3s;
+}
+
+.comment-input-box > button:hover {
+    color: #0095F6;
+}
 
 
 .stories-white-background {
@@ -520,7 +557,7 @@ label {
 @media (max-width: 614px) {
 
     .icons,
-    .search,
+    .search-input,
     .bar-vertical    {
         display: none;
     }
